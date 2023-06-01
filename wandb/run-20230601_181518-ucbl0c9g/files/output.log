@@ -1,4 +1,0 @@
-torch.Size([10, 12288])
-torch.Size([10, 12288])
-Epoch: 0/3000
-| Training loss:  88.36325073242188

@@ -1,9 +1,0 @@
-Epoch: 0/3000
-Training loss:  0.2790132761001587
-Epoch: 10/3000
-Training loss:  0.23246882855892181
-Epoch: 20/3000
-Training loss:  0.2741556763648987
-Epoch: 30/3000
-Training loss:  0.25451064109802246
-Interrupting by keyboard, returning trained model...
