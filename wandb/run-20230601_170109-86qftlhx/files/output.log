@@ -1,0 +1,390 @@
+torch.Size([128, 3072])
+Epoch: 0/3000
+| Training loss:  0.9720334410667419
+Epoch: 10/3000
+| Training loss:  0.7214462757110596
+Epoch: 20/3000
+| Training loss:  0.5370951890945435
+Epoch: 30/3000
+| Training loss:  0.45324867963790894
+Epoch: 40/3000
+| Training loss:  0.363439679145813
+Epoch: 50/3000
+| Training loss:  0.3344038724899292
+Epoch: 60/3000
+| Training loss:  0.3048960268497467
+Epoch: 70/3000
+| Training loss:  0.319509357213974
+Epoch: 80/3000
+| Training loss:  0.30857741832733154
+Epoch: 90/3000
+| Training loss:  0.3190840482711792
+Epoch: 100/3000
+| Training loss:  0.31349653005599976
+Epoch: 110/3000
+| Training loss:  0.27450889348983765
+Epoch: 120/3000
+| Training loss:  0.27695733308792114
+Epoch: 130/3000
+| Training loss:  0.29256173968315125
+Epoch: 140/3000
+| Training loss:  0.2960265278816223
+Epoch: 150/3000
+| Training loss:  0.2962656617164612
+Epoch: 160/3000
+| Training loss:  0.2687150537967682
+Epoch: 170/3000
+| Training loss:  0.2967623770236969
+Epoch: 180/3000
+| Training loss:  0.3028274476528168
+Epoch: 190/3000
+| Training loss:  0.29653868079185486
+Epoch: 200/3000
+| Training loss:  0.2883674204349518
+Epoch: 210/3000
+| Training loss:  0.3087370991706848
+Epoch: 220/3000
+| Training loss:  0.293978214263916
+Epoch: 230/3000
+| Training loss:  0.3188689947128296
+Epoch: 240/3000
+| Training loss:  0.2965116500854492
+Epoch: 250/3000
+| Training loss:  0.30125534534454346
+Epoch: 260/3000
+| Training loss:  0.2903316020965576
+Epoch: 270/3000
+| Training loss:  0.28826379776000977
+Epoch: 280/3000
+| Training loss:  0.2716507315635681
+Epoch: 290/3000
+| Training loss:  0.278092622756958
+Epoch: 300/3000
+| Training loss:  0.29568445682525635
+Epoch: 310/3000
+| Training loss:  0.2870061993598938
+Epoch: 320/3000
+| Training loss:  0.28161394596099854
+Epoch: 330/3000
+| Training loss:  0.2880958318710327
+Epoch: 340/3000
+| Training loss:  0.2971871793270111
+Epoch: 350/3000
+| Training loss:  0.27311474084854126
+Epoch: 360/3000
+| Training loss:  0.3011733889579773
+Epoch: 370/3000
+| Training loss:  0.3082762360572815
+Epoch: 380/3000
+| Training loss:  0.3015635013580322
+Epoch: 390/3000
+| Training loss:  0.30259832739830017
+Epoch: 400/3000
+| Training loss:  0.2767823040485382
+Epoch: 410/3000
+| Training loss:  0.2992051839828491
+Epoch: 420/3000
+| Training loss:  0.2786010503768921
+Epoch: 430/3000
+| Training loss:  0.28158265352249146
+Epoch: 440/3000
+| Training loss:  0.28054875135421753
+Epoch: 450/3000
+| Training loss:  0.29618608951568604
+Epoch: 460/3000
+| Training loss:  0.2685548961162567
+Epoch: 470/3000
+| Training loss:  0.2705255448818207
+Epoch: 480/3000
+| Training loss:  0.28397637605667114
+Epoch: 490/3000
+| Training loss:  0.2815884053707123
+Epoch: 500/3000
+| Training loss:  0.31345322728157043
+Epoch: 510/3000
+| Training loss:  0.2695794999599457
+Epoch: 520/3000
+| Training loss:  0.2768995463848114
+Epoch: 530/3000
+| Training loss:  0.30366402864456177
+Epoch: 540/3000
+| Training loss:  0.28331422805786133
+Epoch: 550/3000
+| Training loss:  0.29092854261398315
+Epoch: 560/3000
+| Training loss:  0.31843358278274536
+Epoch: 570/3000
+| Training loss:  0.30717551708221436
+Epoch: 580/3000
+| Training loss:  0.2863292396068573
+Epoch: 590/3000
+| Training loss:  0.30485907196998596
+Epoch: 600/3000
+| Training loss:  0.3136417269706726
+Epoch: 610/3000
+| Training loss:  0.3009701371192932
+Epoch: 620/3000
+| Training loss:  0.2770509123802185
+Epoch: 630/3000
+| Training loss:  0.28702372312545776
+Epoch: 640/3000
+| Training loss:  0.3024270534515381
+Epoch: 650/3000
+| Training loss:  0.2879401445388794
+Epoch: 660/3000
+| Training loss:  0.30958113074302673
+Epoch: 670/3000
+| Training loss:  0.31393900513648987
+Epoch: 680/3000
+| Training loss:  0.2894396185874939
+Epoch: 690/3000
+| Training loss:  0.27723026275634766
+Epoch: 700/3000
+| Training loss:  0.2940271496772766
+Epoch: 710/3000
+| Training loss:  0.3224276602268219
+Epoch: 720/3000
+| Training loss:  0.28034281730651855
+Epoch: 730/3000
+| Training loss:  0.2987763583660126
+Epoch: 740/3000
+| Training loss:  0.2903288006782532
+Epoch: 750/3000
+| Training loss:  0.2703174352645874
+Epoch: 760/3000
+| Training loss:  0.303461492061615
+Epoch: 770/3000
+| Training loss:  0.29928678274154663
+Epoch: 780/3000
+| Training loss:  0.28112512826919556
+Epoch: 790/3000
+| Training loss:  0.30774009227752686
+Epoch: 800/3000
+| Training loss:  0.29503506422042847
+Epoch: 810/3000
+| Training loss:  0.29967039823532104
+Epoch: 820/3000
+| Training loss:  0.30042266845703125
+Epoch: 830/3000
+| Training loss:  0.29075887799263
+Epoch: 840/3000
+| Training loss:  0.2947792708873749
+Epoch: 850/3000
+| Training loss:  0.2888658344745636
+Epoch: 860/3000
+| Training loss:  0.30652177333831787
+Epoch: 870/3000
+| Training loss:  0.27238139510154724
+Epoch: 880/3000
+| Training loss:  0.28070884943008423
+Epoch: 890/3000
+| Training loss:  0.2801732122898102
+Epoch: 900/3000
+| Training loss:  0.29347771406173706
+Epoch: 910/3000
+| Training loss:  0.2781582474708557
+Epoch: 920/3000
+| Training loss:  0.28738462924957275
+Epoch: 930/3000
+| Training loss:  0.31100526452064514
+Epoch: 940/3000
+| Training loss:  0.2856440842151642
+Epoch: 950/3000
+| Training loss:  0.29872703552246094
+Epoch: 960/3000
+| Training loss:  0.2742689251899719
+Epoch: 970/3000
+| Training loss:  0.2966640591621399
+Epoch: 980/3000
+| Training loss:  0.2903432846069336
+Epoch: 990/3000
+| Training loss:  0.30210790038108826
+Epoch: 1000/3000
+| Training loss:  0.30646196007728577
+Epoch: 1010/3000
+| Training loss:  0.2799611985683441
+Epoch: 1020/3000
+| Training loss:  0.28056132793426514
+Epoch: 1030/3000
+| Training loss:  0.31155967712402344
+Epoch: 1040/3000
+| Training loss:  0.28630584478378296
+Epoch: 1050/3000
+| Training loss:  0.2632698118686676
+Epoch: 1060/3000
+| Training loss:  0.27935171127319336
+Epoch: 1070/3000
+| Training loss:  0.2819518446922302
+Epoch: 1080/3000
+| Training loss:  0.31543540954589844
+Epoch: 1090/3000
+| Training loss:  0.2959992289543152
+Epoch: 1100/3000
+| Training loss:  0.30567675828933716
+Epoch: 1110/3000
+| Training loss:  0.2866092324256897
+Epoch: 1120/3000
+| Training loss:  0.2904089093208313
+Epoch: 1130/3000
+| Training loss:  0.2799249589443207
+Epoch: 1140/3000
+| Training loss:  0.2964743971824646
+Epoch: 1150/3000
+| Training loss:  0.2896794378757477
+Epoch: 1160/3000
+| Training loss:  0.27745530009269714
+Epoch: 1170/3000
+| Training loss:  0.29751551151275635
+Epoch: 1180/3000
+| Training loss:  0.27472373843193054
+Epoch: 1190/3000
+| Training loss:  0.29603812098503113
+Epoch: 1200/3000
+| Training loss:  0.30265194177627563
+Epoch: 1210/3000
+| Training loss:  0.29138073325157166
+Epoch: 1220/3000
+| Training loss:  0.30724579095840454
+Epoch: 1230/3000
+| Training loss:  0.30013570189476013
+Epoch: 1240/3000
+| Training loss:  0.2906033992767334
+Epoch: 1250/3000
+| Training loss:  0.2955854535102844
+Epoch: 1260/3000
+| Training loss:  0.26291510462760925
+Epoch: 1270/3000
+| Training loss:  0.29182812571525574
+Epoch: 1280/3000
+| Training loss:  0.30719655752182007
+Epoch: 1290/3000
+| Training loss:  0.28291475772857666
+Epoch: 1300/3000
+| Training loss:  0.294614315032959
+Epoch: 1310/3000
+| Training loss:  0.29181337356567383
+Epoch: 1320/3000
+| Training loss:  0.2890515923500061
+Epoch: 1330/3000
+| Training loss:  0.3091012239456177
+Epoch: 1340/3000
+| Training loss:  0.29389488697052
+Epoch: 1350/3000
+| Training loss:  0.2947145104408264
+Epoch: 1360/3000
+| Training loss:  0.28184208273887634
+Epoch: 1370/3000
+| Training loss:  0.28438982367515564
+Epoch: 1380/3000
+| Training loss:  0.27568891644477844
+Epoch: 1390/3000
+| Training loss:  0.2887362539768219
+Epoch: 1400/3000
+| Training loss:  0.30493611097335815
+Epoch: 1410/3000
+| Training loss:  0.29467329382896423
+Epoch: 1420/3000
+| Training loss:  0.2966052293777466
+Epoch: 1430/3000
+| Training loss:  0.2938169538974762
+Epoch: 1440/3000
+| Training loss:  0.28806018829345703
+Epoch: 1450/3000
+| Training loss:  0.2876564562320709
+Epoch: 1460/3000
+| Training loss:  0.2938053607940674
+Epoch: 1470/3000
+| Training loss:  0.28627580404281616
+Epoch: 1480/3000
+| Training loss:  0.2930057644844055
+Epoch: 1490/3000
+| Training loss:  0.3087320923805237
+Epoch: 1500/3000
+| Training loss:  0.29930680990219116
+Epoch: 1510/3000
+| Training loss:  0.31307756900787354
+Epoch: 1520/3000
+| Training loss:  0.29510176181793213
+Epoch: 1530/3000
+| Training loss:  0.28124892711639404
+Epoch: 1540/3000
+| Training loss:  0.2760888934135437
+Epoch: 1550/3000
+| Training loss:  0.31493526697158813
+Epoch: 1560/3000
+| Training loss:  0.29959315061569214
+Epoch: 1570/3000
+| Training loss:  0.28823548555374146
+Epoch: 1580/3000
+| Training loss:  0.2676508128643036
+Epoch: 1590/3000
+| Training loss:  0.3032543957233429
+Epoch: 1600/3000
+| Training loss:  0.29448646306991577
+Epoch: 1610/3000
+| Training loss:  0.3090295195579529
+Epoch: 1620/3000
+| Training loss:  0.3037525415420532
+Epoch: 1630/3000
+| Training loss:  0.28166255354881287
+Epoch: 1640/3000
+| Training loss:  0.31163254380226135
+Epoch: 1650/3000
+| Training loss:  0.30339962244033813
+Epoch: 1660/3000
+| Training loss:  0.26448506116867065
+Epoch: 1670/3000
+| Training loss:  0.2817126214504242
+Epoch: 1680/3000
+| Training loss:  0.3061986565589905
+Epoch: 1690/3000
+| Training loss:  0.28100550174713135
+Epoch: 1700/3000
+| Training loss:  0.303635835647583
+Epoch: 1710/3000
+| Training loss:  0.28181084990501404
+Epoch: 1720/3000
+| Training loss:  0.29145345091819763
+Epoch: 1730/3000
+| Training loss:  0.31979578733444214
+Epoch: 1740/3000
+| Training loss:  0.29298755526542664
+Epoch: 1750/3000
+| Training loss:  0.2687075734138489
+Epoch: 1760/3000
+| Training loss:  0.2680552899837494
+Epoch: 1770/3000
+| Training loss:  0.2919727861881256
+Epoch: 1780/3000
+| Training loss:  0.3038668632507324
+Epoch: 1790/3000
+| Training loss:  0.28714045882225037
+Epoch: 1800/3000
+| Training loss:  0.2974262237548828
+Epoch: 1810/3000
+| Training loss:  0.3141816556453705
+Epoch: 1820/3000
+| Training loss:  0.2577035427093506
+Epoch: 1830/3000
+| Training loss:  0.275112509727478
+Epoch: 1840/3000
+| Training loss:  0.2754114270210266
+Epoch: 1850/3000
+| Training loss:  0.2773754298686981
+Epoch: 1860/3000
+| Training loss:  0.2852160334587097
+Epoch: 1870/3000
+| Training loss:  0.27336645126342773
+Epoch: 1880/3000
+| Training loss:  0.30545473098754883
+Epoch: 1890/3000
+| Training loss:  0.27403247356414795
+Epoch: 1900/3000
+| Training loss:  0.2963722050189972
+Epoch: 1910/3000
+| Training loss:  0.28509292006492615
+Epoch: 1920/3000
+| Training loss:  0.3125525414943695
+Epoch: 1930/3000
+| Training loss:  0.2875911593437195
+Interrupting by keyboard, returning trained model...

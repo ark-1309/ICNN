@@ -1,0 +1,228 @@
+2023-06-01 18:50:56,958 INFO    StreamThr :9996 [internal.py:wandb_internal():87] W&B internal server running at pid: 9996, started at: 2023-06-01 18:50:56.957169
+2023-06-01 18:50:56,966 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: status
+2023-06-01 18:50:56,974 INFO    WriterThread:9996 [datastore.py:open_for_write():85] open: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\run-f0snft5w.wandb
+2023-06-01 18:50:56,980 DEBUG   SenderThread:9996 [sender.py:send():336] send: header
+2023-06-01 18:50:56,980 DEBUG   SenderThread:9996 [sender.py:send():336] send: run
+2023-06-01 18:50:57,651 INFO    SenderThread:9996 [dir_watcher.py:__init__():219] watching files in: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files
+2023-06-01 18:50:57,657 INFO    SenderThread:9996 [sender.py:_start_run_threads():1078] run started: f0snft5w with start time 1685634655.994194
+2023-06-01 18:50:57,658 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: summary_record
+2023-06-01 18:50:57,660 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-06-01 18:50:57,662 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: check_version
+2023-06-01 18:50:57,663 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: check_version
+2023-06-01 18:50:57,952 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: run_start
+2023-06-01 18:50:57,992 DEBUG   HandlerThread:9996 [system_info.py:__init__():31] System info init
+2023-06-01 18:50:57,992 DEBUG   HandlerThread:9996 [system_info.py:__init__():46] System info init done
+2023-06-01 18:50:57,992 INFO    HandlerThread:9996 [system_monitor.py:start():183] Starting system monitor
+2023-06-01 18:50:57,993 INFO    SystemMonitor:9996 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-06-01 18:50:57,994 INFO    HandlerThread:9996 [system_monitor.py:probe():204] Collecting system info
+2023-06-01 18:50:58,010 INFO    SystemMonitor:9996 [interfaces.py:start():187] Started cpu monitoring
+2023-06-01 18:50:58,012 INFO    SystemMonitor:9996 [interfaces.py:start():187] Started disk monitoring
+2023-06-01 18:50:58,014 INFO    SystemMonitor:9996 [interfaces.py:start():187] Started gpu monitoring
+2023-06-01 18:50:58,017 INFO    SystemMonitor:9996 [interfaces.py:start():187] Started memory monitoring
+2023-06-01 18:50:58,040 INFO    SystemMonitor:9996 [interfaces.py:start():187] Started network monitoring
+2023-06-01 18:50:58,040 DEBUG   HandlerThread:9996 [system_info.py:probe():195] Probing system
+2023-06-01 18:50:58,064 DEBUG   HandlerThread:9996 [system_info.py:_probe_git():180] Probing git
+2023-06-01 18:50:58,071 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:50:58,368 DEBUG   HandlerThread:9996 [system_info.py:_probe_git():188] Probing git done
+2023-06-01 18:50:58,368 DEBUG   HandlerThread:9996 [system_info.py:probe():240] Probing system done
+2023-06-01 18:50:58,368 DEBUG   HandlerThread:9996 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-06-01T15:50:58.057681', 'startedAt': '2023-06-01T15:50:48.956102', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ark-1309/ICNN.git', 'commit': 'ee011fe3e579cf1d0c53a3343f9832f7ab7c7d2a'}, 'email': '113790037+ark-1309@users.noreply.github.com', 'root': 'D:/Math of ML Master - HSE/Skoltech/ICNN', 'host': 'LAPTOP-05ESUJ75', 'username': 'xavi_', 'executable': 'd:\\miniconda3\\envs\\pytorch-20\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'total': 322.26464462280273, 'used': 164.00030899047852}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.840824127197266}}
+2023-06-01 18:50:58,368 INFO    HandlerThread:9996 [system_monitor.py:probe():214] Finished collecting system info
+2023-06-01 18:50:58,369 INFO    HandlerThread:9996 [system_monitor.py:probe():217] Publishing system info
+2023-06-01 18:50:58,369 DEBUG   HandlerThread:9996 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-01 18:50:58,371 DEBUG   HandlerThread:9996 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-01 18:50:58,372 DEBUG   HandlerThread:9996 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-01 18:50:58,379 ERROR   HandlerThread:9996 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "d:\miniconda3\envs\pytorch-20\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "d:\miniconda3\envs\pytorch-20\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "d:\miniconda3\envs\pytorch-20\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "d:\miniconda3\envs\pytorch-20\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-06-01 18:50:58,380 DEBUG   HandlerThread:9996 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-01 18:50:58,382 INFO    HandlerThread:9996 [system_monitor.py:probe():219] Finished publishing system info
+2023-06-01 18:50:58,384 DEBUG   SenderThread:9996 [sender.py:send():336] send: files
+2023-06-01 18:50:58,384 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-06-01 18:50:58,445 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 18:50:58,446 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: stop_status
+2023-06-01 18:50:58,661 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\wandb-metadata.json
+2023-06-01 18:50:58,661 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\wandb-summary.json
+2023-06-01 18:50:58,662 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\requirements.txt
+2023-06-01 18:50:58,664 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\conda-environment.yaml
+2023-06-01 18:50:58,688 DEBUG   SenderThread:9996 [sender.py:send():336] send: telemetry
+2023-06-01 18:50:59,126 INFO    wandb-upload_0:9996 [upload_job.py:push():138] Uploaded file C:\Users\xavi_\AppData\Local\Temp\tmppruittljwandb\fagjrpcg-wandb-metadata.json
+2023-06-01 18:50:59,630 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-01 18:50:59,631 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-01 18:50:59,631 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-01 18:50:59,659 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\output.log
+2023-06-01 18:51:00,088 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:00,401 DEBUG   SenderThread:9996 [sender.py:send():336] send: files
+2023-06-01 18:51:00,401 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file media\images\Images_0_39adcd22f49b7f26f4d4.png with policy now
+2023-06-01 18:51:00,410 DEBUG   SenderThread:9996 [sender.py:send():336] send: files
+2023-06-01 18:51:00,410 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file media\images\Images_0_a1a62ab80ddf965ae5f3.png with policy now
+2023-06-01 18:51:00,424 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-01 18:51:00,672 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images\Images_0_39adcd22f49b7f26f4d4.png
+2023-06-01 18:51:00,672 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images\Images_0_a1a62ab80ddf965ae5f3.png
+2023-06-01 18:51:00,673 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images
+2023-06-01 18:51:00,673 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media
+2023-06-01 18:51:01,034 INFO    wandb-upload_0:9996 [upload_job.py:push():138] Uploaded file C:\Users\xavi_\AppData\Local\Temp\tmppruittljwandb\hxuidszm-media/images/Images_0_39adcd22f49b7f26f4d4.png
+2023-06-01 18:51:01,145 INFO    wandb-upload_1:9996 [upload_job.py:push():138] Uploaded file C:\Users\xavi_\AppData\Local\Temp\tmppruittljwandb\7135dcpl-media/images/Images_0_a1a62ab80ddf965ae5f3.png
+2023-06-01 18:51:01,731 INFO    Thread-143:9996 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\output.log
+2023-06-01 18:51:02,105 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:02,417 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 18:51:04,129 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:04,771 DEBUG   SenderThread:9996 [sender.py:send():336] send: files
+2023-06-01 18:51:04,771 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file media\images\Histograms_0_7aba77ce762ad3b849da.png with policy now
+2023-06-01 18:51:04,771 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-01 18:51:05,457 INFO    wandb-upload_0:9996 [upload_job.py:push():138] Uploaded file C:\Users\xavi_\AppData\Local\Temp\tmppruittljwandb\vfozmggy-media/images/Histograms_0_7aba77ce762ad3b849da.png
+2023-06-01 18:51:05,777 INFO    Thread-143:9996 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images\Histograms_0_7aba77ce762ad3b849da.png
+2023-06-01 18:51:05,777 INFO    Thread-143:9996 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images
+2023-06-01 18:51:06,177 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:07,804 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 18:51:08,192 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:10,222 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:11,862 INFO    Thread-143:9996 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\output.log
+2023-06-01 18:51:12,239 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:13,039 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 18:51:13,457 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 18:51:13,458 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: stop_status
+2023-06-01 18:51:14,271 ERROR   gpu       :9996 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 18:51:15,805 DEBUG   SenderThread:9996 [sender.py:send():336] send: telemetry
+2023-06-01 18:51:15,806 DEBUG   SenderThread:9996 [sender.py:send():336] send: exit
+2023-06-01 18:51:15,807 INFO    SenderThread:9996 [sender.py:send_exit():559] handling exit code: 0
+2023-06-01 18:51:15,807 INFO    SenderThread:9996 [sender.py:send_exit():561] handling runtime: 17
+2023-06-01 18:51:15,810 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-06-01 18:51:15,812 INFO    SenderThread:9996 [sender.py:send_exit():567] send defer
+2023-06-01 18:51:15,812 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:15,812 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-01 18:51:15,812 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:15,812 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-06-01 18:51:15,812 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 1
+2023-06-01 18:51:15,813 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:15,813 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-01 18:51:15,813 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:15,813 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-06-01 18:51:15,813 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 2
+2023-06-01 18:51:15,813 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:15,813 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-01 18:51:15,813 INFO    HandlerThread:9996 [system_monitor.py:finish():193] Stopping system monitor
+2023-06-01 18:51:15,814 DEBUG   SystemMonitor:9996 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-06-01 18:51:15,814 DEBUG   SystemMonitor:9996 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-06-01 18:51:15,814 DEBUG   SystemMonitor:9996 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-06-01 18:51:15,825 INFO    HandlerThread:9996 [interfaces.py:finish():199] Joined cpu monitor
+2023-06-01 18:51:15,826 INFO    HandlerThread:9996 [interfaces.py:finish():199] Joined disk monitor
+2023-06-01 18:51:15,890 INFO    HandlerThread:9996 [interfaces.py:finish():199] Joined gpu monitor
+2023-06-01 18:51:15,890 INFO    HandlerThread:9996 [interfaces.py:finish():199] Joined memory monitor
+2023-06-01 18:51:15,891 INFO    HandlerThread:9996 [interfaces.py:finish():199] Joined network monitor
+2023-06-01 18:51:15,893 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:15,893 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-06-01 18:51:15,893 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 3
+2023-06-01 18:51:15,893 DEBUG   SenderThread:9996 [sender.py:send():336] send: stats
+2023-06-01 18:51:15,894 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:15,894 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-01 18:51:15,895 DEBUG   SenderThread:9996 [sender.py:send():336] send: history
+2023-06-01 18:51:15,896 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: summary_record
+2023-06-01 18:51:15,896 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-06-01 18:51:15,896 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:15,896 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-06-01 18:51:15,896 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 4
+2023-06-01 18:51:15,897 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:15,897 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-01 18:51:15,897 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:15,897 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-06-01 18:51:15,897 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 5
+2023-06-01 18:51:15,897 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:15,897 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-01 18:51:15,898 DEBUG   SenderThread:9996 [sender.py:send():336] send: summary
+2023-06-01 18:51:15,901 INFO    SenderThread:9996 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-06-01 18:51:15,901 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:15,901 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-06-01 18:51:15,902 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 6
+2023-06-01 18:51:15,902 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:15,902 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-01 18:51:15,903 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:15,903 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-06-01 18:51:15,910 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 18:51:15,914 INFO    Thread-143:9996 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\wandb-summary.json
+2023-06-01 18:51:16,228 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 7
+2023-06-01 18:51:16,230 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:16,230 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-01 18:51:16,231 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:16,231 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-06-01 18:51:16,823 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 18:51:16,917 INFO    Thread-143:9996 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\config.yaml
+2023-06-01 18:51:17,755 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 8
+2023-06-01 18:51:17,755 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: poll_exit
+2023-06-01 18:51:17,756 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:17,757 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-01 18:51:17,757 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:17,757 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-06-01 18:51:17,757 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 9
+2023-06-01 18:51:17,758 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:17,758 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-01 18:51:17,758 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:17,758 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-06-01 18:51:17,758 INFO    SenderThread:9996 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-01 18:51:17,834 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 18:51:17,939 INFO    SenderThread:9996 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\output.log
+2023-06-01 18:51:17,942 INFO    SenderThread:9996 [dir_watcher.py:finish():395] scan: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files
+2023-06-01 18:51:17,944 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\conda-environment.yaml conda-environment.yaml
+2023-06-01 18:51:17,946 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\config.yaml config.yaml
+2023-06-01 18:51:17,947 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\output.log output.log
+2023-06-01 18:51:17,960 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\requirements.txt requirements.txt
+2023-06-01 18:51:17,985 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\wandb-metadata.json wandb-metadata.json
+2023-06-01 18:51:17,986 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\wandb-summary.json wandb-summary.json
+2023-06-01 18:51:18,044 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images\Histograms_0_7aba77ce762ad3b849da.png media\images\Histograms_0_7aba77ce762ad3b849da.png
+2023-06-01 18:51:18,045 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images\Images_0_39adcd22f49b7f26f4d4.png media\images\Images_0_39adcd22f49b7f26f4d4.png
+2023-06-01 18:51:18,046 INFO    SenderThread:9996 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\media\images\Images_0_a1a62ab80ddf965ae5f3.png media\images\Images_0_a1a62ab80ddf965ae5f3.png
+2023-06-01 18:51:18,047 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 10
+2023-06-01 18:51:18,048 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: poll_exit
+2023-06-01 18:51:18,054 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:18,055 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-01 18:51:18,057 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:18,058 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-06-01 18:51:18,058 INFO    SenderThread:9996 [file_pusher.py:finish():164] shutting down file pusher
+2023-06-01 18:51:18,632 INFO    wandb-upload_2:9996 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\requirements.txt
+2023-06-01 18:51:18,668 INFO    wandb-upload_1:9996 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\config.yaml
+2023-06-01 18:51:18,733 INFO    wandb-upload_0:9996 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\output.log
+2023-06-01 18:51:18,817 INFO    wandb-upload_3:9996 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\files\wandb-summary.json
+2023-06-01 18:51:18,849 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 18:51:18,852 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: poll_exit
+2023-06-01 18:51:19,027 INFO    Thread-142:9996 [sender.py:transition_state():587] send defer: 11
+2023-06-01 18:51:19,027 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:19,027 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-01 18:51:19,028 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:19,028 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-06-01 18:51:19,028 INFO    SenderThread:9996 [file_pusher.py:join():169] waiting for file pusher
+2023-06-01 18:51:19,028 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 12
+2023-06-01 18:51:19,028 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:19,028 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-01 18:51:19,029 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:19,029 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-06-01 18:51:19,272 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 13
+2023-06-01 18:51:19,273 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:19,273 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-01 18:51:19,275 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:19,275 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-06-01 18:51:19,276 INFO    SenderThread:9996 [sender.py:transition_state():587] send defer: 14
+2023-06-01 18:51:19,277 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 18:51:19,278 INFO    HandlerThread:9996 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-01 18:51:19,278 DEBUG   SenderThread:9996 [sender.py:send():336] send: final
+2023-06-01 18:51:19,279 DEBUG   SenderThread:9996 [sender.py:send():336] send: footer
+2023-06-01 18:51:19,280 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: defer
+2023-06-01 18:51:19,281 INFO    SenderThread:9996 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-06-01 18:51:19,285 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 18:51:19,286 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: server_info
+2023-06-01 18:51:19,287 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-01 18:51:19,287 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: poll_exit
+2023-06-01 18:51:19,289 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-01 18:51:19,290 DEBUG   SenderThread:9996 [sender.py:send_request():363] send_request: server_info
+2023-06-01 18:51:19,874 DEBUG   HandlerThread:9996 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-01 18:51:19,875 INFO    HandlerThread:9996 [handler.py:finish():842] shutting down handler
+2023-06-01 18:51:20,303 INFO    WriterThread:9996 [datastore.py:close():298] close: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_185048-f0snft5w\run-f0snft5w.wandb
+2023-06-01 18:51:20,882 INFO    SenderThread:9996 [sender.py:finish():1504] shutting down sender
+2023-06-01 18:51:20,882 INFO    SenderThread:9996 [file_pusher.py:finish():164] shutting down file pusher
+2023-06-01 18:51:20,882 INFO    SenderThread:9996 [file_pusher.py:join():169] waiting for file pusher

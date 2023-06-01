@@ -1,0 +1,195 @@
+2023-06-01 16:57:35,886 INFO    StreamThr :26476 [internal.py:wandb_internal():87] W&B internal server running at pid: 26476, started at: 2023-06-01 16:57:35.884227
+2023-06-01 16:57:35,895 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: status
+2023-06-01 16:57:35,900 INFO    WriterThread:26476 [datastore.py:open_for_write():85] open: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\run-y66223vd.wandb
+2023-06-01 16:57:35,906 DEBUG   SenderThread:26476 [sender.py:send():336] send: header
+2023-06-01 16:57:35,907 DEBUG   SenderThread:26476 [sender.py:send():336] send: run
+2023-06-01 16:57:36,631 INFO    SenderThread:26476 [dir_watcher.py:__init__():219] watching files in: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files
+2023-06-01 16:57:36,633 INFO    SenderThread:26476 [sender.py:_start_run_threads():1078] run started: y66223vd with start time 1685627854.994335
+2023-06-01 16:57:36,634 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: summary_record
+2023-06-01 16:57:36,636 INFO    SenderThread:26476 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-06-01 16:57:36,642 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: check_version
+2023-06-01 16:57:36,644 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: check_version
+2023-06-01 16:57:36,920 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: run_start
+2023-06-01 16:57:36,954 DEBUG   HandlerThread:26476 [system_info.py:__init__():31] System info init
+2023-06-01 16:57:36,954 DEBUG   HandlerThread:26476 [system_info.py:__init__():46] System info init done
+2023-06-01 16:57:36,954 INFO    HandlerThread:26476 [system_monitor.py:start():183] Starting system monitor
+2023-06-01 16:57:36,955 INFO    SystemMonitor:26476 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-06-01 16:57:36,957 INFO    HandlerThread:26476 [system_monitor.py:probe():204] Collecting system info
+2023-06-01 16:57:36,971 INFO    SystemMonitor:26476 [interfaces.py:start():187] Started cpu monitoring
+2023-06-01 16:57:36,975 INFO    SystemMonitor:26476 [interfaces.py:start():187] Started disk monitoring
+2023-06-01 16:57:36,976 INFO    SystemMonitor:26476 [interfaces.py:start():187] Started gpu monitoring
+2023-06-01 16:57:36,979 INFO    SystemMonitor:26476 [interfaces.py:start():187] Started memory monitoring
+2023-06-01 16:57:37,000 INFO    SystemMonitor:26476 [interfaces.py:start():187] Started network monitoring
+2023-06-01 16:57:37,001 DEBUG   HandlerThread:26476 [system_info.py:probe():195] Probing system
+2023-06-01 16:57:37,026 DEBUG   HandlerThread:26476 [system_info.py:_probe_git():180] Probing git
+2023-06-01 16:57:37,031 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:37,328 DEBUG   HandlerThread:26476 [system_info.py:_probe_git():188] Probing git done
+2023-06-01 16:57:37,329 DEBUG   HandlerThread:26476 [system_info.py:probe():240] Probing system done
+2023-06-01 16:57:37,329 DEBUG   HandlerThread:26476 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.16', 'heartbeatAt': '2023-06-01T13:57:37.023488', 'startedAt': '2023-06-01T13:57:30.509293', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ark-1309/ICNN.git', 'commit': 'ee011fe3e579cf1d0c53a3343f9832f7ab7c7d2a'}, 'email': '113790037+ark-1309@users.noreply.github.com', 'root': 'D:/Math of ML Master - HSE/Skoltech/ICNN', 'host': 'LAPTOP-05ESUJ75', 'username': 'xavi_', 'executable': 'd:\\miniconda3\\envs\\pytorch-20\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'total': 322.26464462280273, 'used': 163.9413604736328}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.840824127197266}}
+2023-06-01 16:57:37,329 INFO    HandlerThread:26476 [system_monitor.py:probe():214] Finished collecting system info
+2023-06-01 16:57:37,330 INFO    HandlerThread:26476 [system_monitor.py:probe():217] Publishing system info
+2023-06-01 16:57:37,330 DEBUG   HandlerThread:26476 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-01 16:57:37,334 DEBUG   HandlerThread:26476 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-01 16:57:37,334 DEBUG   HandlerThread:26476 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-01 16:57:37,341 ERROR   HandlerThread:26476 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "d:\miniconda3\envs\pytorch-20\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "d:\miniconda3\envs\pytorch-20\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "d:\miniconda3\envs\pytorch-20\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "d:\miniconda3\envs\pytorch-20\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-06-01 16:57:37,342 DEBUG   HandlerThread:26476 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-01 16:57:37,344 INFO    HandlerThread:26476 [system_monitor.py:probe():219] Finished publishing system info
+2023-06-01 16:57:37,346 DEBUG   SenderThread:26476 [sender.py:send():336] send: files
+2023-06-01 16:57:37,347 INFO    SenderThread:26476 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-06-01 16:57:37,420 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-01 16:57:37,421 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: stop_status
+2023-06-01 16:57:37,637 INFO    Thread-143:26476 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\wandb-summary.json
+2023-06-01 16:57:37,638 INFO    Thread-143:26476 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\conda-environment.yaml
+2023-06-01 16:57:37,639 INFO    Thread-143:26476 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\requirements.txt
+2023-06-01 16:57:37,639 INFO    Thread-143:26476 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\wandb-metadata.json
+2023-06-01 16:57:37,684 DEBUG   SenderThread:26476 [sender.py:send():336] send: telemetry
+2023-06-01 16:57:38,118 INFO    wandb-upload_0:26476 [upload_job.py:push():138] Uploaded file C:\Users\xavi_\AppData\Local\Temp\tmp7cuhkjivwandb\amn79fps-wandb-metadata.json
+2023-06-01 16:57:38,649 INFO    Thread-143:26476 [dir_watcher.py:_on_file_created():278] file/dir created: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\output.log
+2023-06-01 16:57:39,062 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:40,671 INFO    Thread-143:26476 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\output.log
+2023-06-01 16:57:41,088 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:41,709 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 16:57:43,113 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:45,158 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:46,762 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 16:57:47,242 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:49,270 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:51,275 DEBUG   SenderThread:26476 [sender.py:send():336] send: telemetry
+2023-06-01 16:57:51,275 DEBUG   SenderThread:26476 [sender.py:send():336] send: exit
+2023-06-01 16:57:51,275 INFO    SenderThread:26476 [sender.py:send_exit():559] handling exit code: 0
+2023-06-01 16:57:51,275 INFO    SenderThread:26476 [sender.py:send_exit():561] handling runtime: 14
+2023-06-01 16:57:51,279 INFO    SenderThread:26476 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-06-01 16:57:51,280 INFO    SenderThread:26476 [sender.py:send_exit():567] send defer
+2023-06-01 16:57:51,281 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,281 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-01 16:57:51,281 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,281 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-06-01 16:57:51,281 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 1
+2023-06-01 16:57:51,282 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,282 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-01 16:57:51,282 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,282 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-06-01 16:57:51,282 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 2
+2023-06-01 16:57:51,283 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,283 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-01 16:57:51,283 INFO    HandlerThread:26476 [system_monitor.py:finish():193] Stopping system monitor
+2023-06-01 16:57:51,283 DEBUG   SystemMonitor:26476 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-06-01 16:57:51,285 DEBUG   SystemMonitor:26476 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-06-01 16:57:51,285 DEBUG   SystemMonitor:26476 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-06-01 16:57:51,286 INFO    HandlerThread:26476 [interfaces.py:finish():199] Joined cpu monitor
+2023-06-01 16:57:51,287 INFO    HandlerThread:26476 [interfaces.py:finish():199] Joined disk monitor
+2023-06-01 16:57:51,295 ERROR   gpu       :26476 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-06-01 16:57:51,400 INFO    HandlerThread:26476 [interfaces.py:finish():199] Joined gpu monitor
+2023-06-01 16:57:51,401 INFO    HandlerThread:26476 [interfaces.py:finish():199] Joined memory monitor
+2023-06-01 16:57:51,401 INFO    HandlerThread:26476 [interfaces.py:finish():199] Joined network monitor
+2023-06-01 16:57:51,402 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,403 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-06-01 16:57:51,403 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 3
+2023-06-01 16:57:51,403 DEBUG   SenderThread:26476 [sender.py:send():336] send: stats
+2023-06-01 16:57:51,403 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,404 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-01 16:57:51,404 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,404 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-06-01 16:57:51,404 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 4
+2023-06-01 16:57:51,404 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,404 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-01 16:57:51,405 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,405 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-06-01 16:57:51,405 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 5
+2023-06-01 16:57:51,406 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,406 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-01 16:57:51,408 DEBUG   SenderThread:26476 [sender.py:send():336] send: summary
+2023-06-01 16:57:51,410 INFO    SenderThread:26476 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-06-01 16:57:51,410 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,411 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-06-01 16:57:51,411 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 6
+2023-06-01 16:57:51,411 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,411 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-01 16:57:51,411 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,412 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-06-01 16:57:51,420 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-01 16:57:51,716 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 7
+2023-06-01 16:57:51,716 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,717 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-01 16:57:51,717 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,717 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-06-01 16:57:51,793 INFO    Thread-143:26476 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\wandb-summary.json
+2023-06-01 16:57:51,793 INFO    Thread-143:26476 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\config.yaml
+2023-06-01 16:57:51,934 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 8
+2023-06-01 16:57:51,934 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,934 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-01 16:57:51,935 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,935 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-06-01 16:57:51,935 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 9
+2023-06-01 16:57:51,935 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:51,935 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-01 16:57:51,936 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:51,937 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-06-01 16:57:51,937 INFO    SenderThread:26476 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-01 16:57:52,266 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 16:57:52,804 INFO    SenderThread:26476 [dir_watcher.py:_on_file_modified():295] file/dir modified: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\output.log
+2023-06-01 16:57:52,806 INFO    SenderThread:26476 [dir_watcher.py:finish():395] scan: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files
+2023-06-01 16:57:52,808 INFO    SenderThread:26476 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\conda-environment.yaml conda-environment.yaml
+2023-06-01 16:57:52,809 INFO    SenderThread:26476 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\config.yaml config.yaml
+2023-06-01 16:57:52,810 INFO    SenderThread:26476 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\output.log output.log
+2023-06-01 16:57:52,827 INFO    SenderThread:26476 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\requirements.txt requirements.txt
+2023-06-01 16:57:52,830 INFO    SenderThread:26476 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\wandb-metadata.json wandb-metadata.json
+2023-06-01 16:57:52,842 INFO    SenderThread:26476 [dir_watcher.py:finish():409] scan save: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\wandb-summary.json wandb-summary.json
+2023-06-01 16:57:52,868 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 10
+2023-06-01 16:57:52,873 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: poll_exit
+2023-06-01 16:57:52,876 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:52,877 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-01 16:57:52,902 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:52,903 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-06-01 16:57:52,904 INFO    SenderThread:26476 [file_pusher.py:finish():164] shutting down file pusher
+2023-06-01 16:57:53,280 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 16:57:53,281 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: poll_exit
+2023-06-01 16:57:53,598 INFO    wandb-upload_0:26476 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\config.yaml
+2023-06-01 16:57:53,634 INFO    wandb-upload_3:26476 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\wandb-summary.json
+2023-06-01 16:57:53,675 INFO    wandb-upload_2:26476 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\requirements.txt
+2023-06-01 16:57:53,712 INFO    wandb-upload_1:26476 [upload_job.py:push():138] Uploaded file d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\files\output.log
+2023-06-01 16:57:53,919 INFO    Thread-142:26476 [sender.py:transition_state():587] send defer: 11
+2023-06-01 16:57:53,920 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:53,920 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-01 16:57:53,921 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:53,922 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-06-01 16:57:53,922 INFO    SenderThread:26476 [file_pusher.py:join():169] waiting for file pusher
+2023-06-01 16:57:53,923 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 12
+2023-06-01 16:57:53,924 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:53,924 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-01 16:57:53,926 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:53,926 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-06-01 16:57:54,159 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 13
+2023-06-01 16:57:54,161 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:54,161 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-01 16:57:54,163 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:54,163 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-06-01 16:57:54,164 INFO    SenderThread:26476 [sender.py:transition_state():587] send defer: 14
+2023-06-01 16:57:54,164 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: defer
+2023-06-01 16:57:54,166 INFO    HandlerThread:26476 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-01 16:57:54,167 DEBUG   SenderThread:26476 [sender.py:send():336] send: final
+2023-06-01 16:57:54,168 DEBUG   SenderThread:26476 [sender.py:send():336] send: footer
+2023-06-01 16:57:54,169 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: defer
+2023-06-01 16:57:54,169 INFO    SenderThread:26476 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-06-01 16:57:54,172 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-01 16:57:54,174 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: server_info
+2023-06-01 16:57:54,175 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-01 16:57:54,176 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-01 16:57:54,177 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: poll_exit
+2023-06-01 16:57:54,179 DEBUG   SenderThread:26476 [sender.py:send_request():363] send_request: server_info
+2023-06-01 16:57:54,796 DEBUG   HandlerThread:26476 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-01 16:57:54,796 INFO    HandlerThread:26476 [handler.py:finish():842] shutting down handler
+2023-06-01 16:57:55,183 INFO    WriterThread:26476 [datastore.py:close():298] close: d:\Math of ML Master - HSE\Skoltech\ICNN\wandb\run-20230601_165730-y66223vd\run-y66223vd.wandb
+2023-06-01 16:57:55,806 INFO    SenderThread:26476 [sender.py:finish():1504] shutting down sender
+2023-06-01 16:57:55,807 INFO    SenderThread:26476 [file_pusher.py:finish():164] shutting down file pusher
+2023-06-01 16:57:55,808 INFO    SenderThread:26476 [file_pusher.py:join():169] waiting for file pusher

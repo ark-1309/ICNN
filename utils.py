@@ -2,10 +2,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 
-def plot_images(batch, n_images=10):
+def plot_images_old(batch, n_images=10):
     fig, axes = plt.subplots(1, n_images, figsize=(n_images, 1), dpi=100)
     for i in range(n_images):
         axes[i].imshow(batch[i, 0], cmap='gray')
+        axes[i].set_xticks([]); axes[i].set_yticks([])
+    fig.tight_layout(pad=0.1)
+    return fig
+
+def plot_images(batch, n_images=10, cmap=None):
+    fig, axes = plt.subplots(1, n_images, figsize=(n_images, 1), dpi=100)
+    for i in range(n_images):
+        if cmap == 'gray':
+            axes[i].imshow(batch[i, 0], cmap='gray')
+        if cmap == 'RGB':
+          img = (batch[i]+1)/2
+          axes[i].imshow(np.transpose(img.clamp_(0,1), (1, 2, 0)))
+        if cmap == 'BGR':
+          img = (batch[i]+1)/2
+          axes[i].imshow(img)
         axes[i].set_xticks([]); axes[i].set_yticks([])
     fig.tight_layout(pad=0.1)
     return fig

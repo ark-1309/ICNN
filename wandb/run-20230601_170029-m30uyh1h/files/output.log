@@ -1,0 +1,18 @@
+torch.Size([128, 3072])
+Epoch: 0/3000
+| Training loss:  11.205398559570312
+Epoch: 10/3000
+| Training loss:  6.077391624450684
+Epoch: 20/3000
+| Training loss:  4.533148765563965
+Epoch: 30/3000
+| Training loss:  3.308389663696289
+Epoch: 40/3000
+| Training loss:  2.967545986175537
+Epoch: 50/3000
+| Training loss:  2.0504093170166016
+Epoch: 60/3000
+| Training loss:  1.4317296743392944
+Epoch: 70/3000
+| Training loss:  0.9974347949028015
+Interrupting by keyboard, returning trained model...

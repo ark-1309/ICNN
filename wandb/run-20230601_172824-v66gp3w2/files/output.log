@@ -1,0 +1,39 @@
+Epoch: 0/3000
+| Training loss:  0.4870449900627136
+Epoch: 10/3000
+| Training loss:  0.17230698466300964
+Epoch: 20/3000
+| Training loss:  0.11368809640407562
+Epoch: 30/3000
+| Training loss:  0.10228153318166733
+Epoch: 40/3000
+| Training loss:  0.08236092329025269
+Epoch: 50/3000
+| Training loss:  0.07653060555458069
+Epoch: 60/3000
+| Training loss:  0.0652487576007843
+Epoch: 70/3000
+| Training loss:  0.06266063451766968
+Epoch: 80/3000
+| Training loss:  0.05512500926852226
+Epoch: 90/3000
+| Training loss:  0.05474429577589035
+Epoch: 100/3000
+| Training loss:  0.05470246076583862
+Epoch: 110/3000
+| Training loss:  0.04710967093706131
+Epoch: 120/3000
+| Training loss:  0.045450907200574875
+Epoch: 130/3000
+| Training loss:  0.06280770897865295
+Epoch: 140/3000
+| Training loss:  0.04808308184146881
+Epoch: 150/3000
+| Training loss:  0.046262405812740326
+Epoch: 160/3000
+| Training loss:  0.05043387413024902
+Epoch: 170/3000
+| Training loss:  0.04318971931934357
+Epoch: 180/3000
+| Training loss:  0.04035644233226776
+Interrupting by keyboard, returning trained model...

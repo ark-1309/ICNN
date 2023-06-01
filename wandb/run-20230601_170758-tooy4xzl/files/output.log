@@ -1,0 +1,77 @@
+C:\Users\xavi_\AppData\Local\Temp\ipykernel_21800\1304654325.py:24: UserWarning: Using a target size (torch.Size([64, 3, 32, 32])) that is different to the input size (torch.Size([64, 1, 32, 32])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss = criterion(out, image_y)
+Epoch: 0/3000
+| Training loss:  0.4331289231777191
+Epoch: 10/3000
+| Training loss:  0.17439226806163788
+Epoch: 20/3000
+| Training loss:  0.1376027911901474
+Epoch: 30/3000
+| Training loss:  0.10402309894561768
+Epoch: 40/3000
+| Training loss:  0.10127236694097519
+Epoch: 50/3000
+| Training loss:  0.07455474138259888
+Epoch: 60/3000
+| Training loss:  0.07076375186443329
+Epoch: 70/3000
+| Training loss:  0.07054588198661804
+Epoch: 80/3000
+| Training loss:  0.06438863277435303
+Epoch: 90/3000
+| Training loss:  0.05618118494749069
+Epoch: 100/3000
+| Training loss:  0.05351868271827698
+Epoch: 110/3000
+| Training loss:  0.059356458485126495
+Epoch: 120/3000
+| Training loss:  0.05230361968278885
+Epoch: 130/3000
+| Training loss:  0.049504026770591736
+Epoch: 140/3000
+| Training loss:  0.048564136028289795
+Epoch: 150/3000
+| Training loss:  0.05572772026062012
+Epoch: 160/3000
+| Training loss:  0.037048496305942535
+Epoch: 170/3000
+| Training loss:  0.04263755679130554
+Epoch: 180/3000
+| Training loss:  0.03462568297982216
+Epoch: 190/3000
+| Training loss:  0.035539768636226654
+Epoch: 200/3000
+| Training loss:  0.03421669453382492
+Epoch: 210/3000
+| Training loss:  0.03921108692884445
+Epoch: 220/3000
+| Training loss:  0.03125501424074173
+Epoch: 230/3000
+| Training loss:  0.03389067202806473
+Epoch: 240/3000
+| Training loss:  0.029913678765296936
+Epoch: 250/3000
+| Training loss:  0.02879594825208187
+Epoch: 260/3000
+| Training loss:  0.02698947861790657
+Epoch: 270/3000
+| Training loss:  0.03135523945093155
+Epoch: 280/3000
+| Training loss:  0.026070784777402878
+Epoch: 290/3000
+| Training loss:  0.02692592702805996
+Epoch: 300/3000
+| Training loss:  0.027330473065376282
+Epoch: 310/3000
+| Training loss:  0.024530764669179916
+Epoch: 320/3000
+| Training loss:  0.026876425370573997
+Epoch: 330/3000
+| Training loss:  0.029879752546548843
+Epoch: 340/3000
+| Training loss:  0.02707166224718094
+Epoch: 350/3000
+| Training loss:  0.029582109302282333
+Interrupting by keyboard, returning trained model...
+torch.Size([10, 3, 32, 32])
+torch.Size([10, 3, 32, 32])

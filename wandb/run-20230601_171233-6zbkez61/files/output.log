@@ -1,0 +1,19 @@
+C:\Users\xavi_\AppData\Local\Temp\ipykernel_21800\1304654325.py:24: UserWarning: Using a target size (torch.Size([64, 3, 32, 32])) that is different to the input size (torch.Size([64, 1, 32, 32])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss = criterion(out, image_y)
+Epoch: 0/3000
+| Training loss:  0.44403335452079773
+Epoch: 10/3000
+| Training loss:  0.17164862155914307
+Epoch: 20/3000
+| Training loss:  0.14852169156074524
+Epoch: 30/3000
+| Training loss:  0.10966845601797104
+Epoch: 40/3000
+| Training loss:  0.0842151790857315
+Epoch: 50/3000
+| Training loss:  0.07631580531597137
+Epoch: 60/3000
+| Training loss:  0.06544874608516693
+Epoch: 70/3000
+| Training loss:  0.06313521414995193
+Interrupting by keyboard, returning trained model...

@@ -1,0 +1,60 @@
+Epoch: 0/3000
+| Training loss:  0.060203295201063156
+C:\Users\xavi_\AppData\Local\Temp\ipykernel_21800\554324454.py:24: UserWarning: Using a target size (torch.Size([64, 3, 32, 32])) that is different to the input size (torch.Size([64, 1, 32, 32])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  loss = criterion(out, image_y)
+Epoch: 10/3000
+| Training loss:  0.05333324894309044
+Epoch: 20/3000
+| Training loss:  0.052792392671108246
+Epoch: 30/3000
+| Training loss:  0.04893238842487335
+Epoch: 40/3000
+| Training loss:  0.04740924760699272
+Epoch: 50/3000
+| Training loss:  0.04271042346954346
+Epoch: 60/3000
+| Training loss:  0.039135485887527466
+Epoch: 70/3000
+| Training loss:  0.05071229860186577
+Epoch: 80/3000
+| Training loss:  0.03547930717468262
+Epoch: 90/3000
+| Training loss:  0.036154963076114655
+Epoch: 100/3000
+| Training loss:  0.03699895739555359
+Epoch: 110/3000
+| Training loss:  0.033066149801015854
+Epoch: 120/3000
+| Training loss:  0.029205456376075745
+Epoch: 130/3000
+| Training loss:  0.027739372104406357
+Epoch: 140/3000
+| Training loss:  0.029532860964536667
+Epoch: 150/3000
+| Training loss:  0.02723316103219986
+Epoch: 160/3000
+| Training loss:  0.02727316878736019
+Epoch: 170/3000
+| Training loss:  0.027636345475912094
+Epoch: 180/3000
+| Training loss:  0.022330155596137047
+Epoch: 190/3000
+| Training loss:  0.034407056868076324
+Epoch: 200/3000
+| Training loss:  0.032193511724472046
+Epoch: 210/3000
+| Training loss:  0.02561873570084572
+Epoch: 220/3000
+| Training loss:  0.023340877145528793
+Epoch: 230/3000
+| Training loss:  0.029873795807361603
+Epoch: 240/3000
+| Training loss:  0.023450752720236778
+Epoch: 250/3000
+| Training loss:  0.023323386907577515
+Epoch: 260/3000
+| Training loss:  0.025967352092266083
+Epoch: 270/3000
+| Training loss:  0.01928822137415409
+Epoch: 280/3000
+| Training loss:  0.021044891327619553

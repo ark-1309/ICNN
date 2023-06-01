@@ -1,0 +1,1 @@
+{"loss": 0.04035644233226776, "_timestamp": 1685629778.8022363, "Images": {"_type": "images/separated", "width": 1000, "height": 100, "format": "png", "count": 2, "filenames": ["media/images/Images_170_39adcd22f49b7f26f4d4.png", "media/images/Images_170_8cc0117b91ee01bae0d3.png"]}, "_runtime": 74.38344931602478, "_step": 180, "_wandb": {"runtime": 74}}
